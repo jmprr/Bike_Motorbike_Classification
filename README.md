@@ -13,16 +13,16 @@ A ResNet-18 model pre-trained on ImageNet is used as the base network. The last 
 The model is trained for 25 epochs using cross-entropy loss and SGD optimizer. Training includes calculating running loss, accuracy etc. The model is evaluated on the validation set after each epoch.
 
 # Usage
-*Install dependencies
+* Install dependencies
 pip install -r requirements.txt
 
-*Data preprocessing
+* Data preprocessing
 python dataset.py
 
-*Train model
+* Train model
 python train.py
 
-*Inference
+* Inference
 python test.py
 
 # Performance
