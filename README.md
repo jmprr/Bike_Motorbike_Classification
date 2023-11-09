@@ -17,13 +17,13 @@ The model is trained for 25 epochs using cross-entropy loss and SGD optimizer. T
 pip install -r requirements.txt
 
 * Data preprocessing: 
-python dataset.py
+python3 dataset.py
 
 * Train model: 
-python train.py
+python3 train.py
 
 * Inference: 
-python test.py
+python3 test.py
 
 # Performance
 The model achieves 99,8% accuracy on the test set.
