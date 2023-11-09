@@ -9,7 +9,7 @@ The data consists of images scraped from online sources and manually labeled as 
 The data is split into training, validation and test sets. Image augmentation techniques like random horizontal flipping are used to expand the training data.
 
 # Model Architecture
-A ResNet-18 model pre-trained on ImageNet is used as the base network. The last fully connected layer is replaced with a 2 node output layer for the 2 classes.
+A ResNet-18 model is used as the base network. The last fully connected layer is replaced with a 2 node output layer for the 2 classes.
 The model is trained for 25 epochs using cross-entropy loss and SGD optimizer. Training includes calculating running loss, accuracy etc. The model is evaluated on the validation set after each epoch.
 
 # Usage
